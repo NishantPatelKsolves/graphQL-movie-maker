@@ -1,0 +1,4 @@
+/node_modules/*
+.vite
+.env
+/server/node_modules/
