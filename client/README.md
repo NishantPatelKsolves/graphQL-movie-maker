@@ -12,5 +12,5 @@ Currently, two official plugins are available:
 If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
 
 1. Clone
-2. cd client, npm i, npm run dev.
+2. cd client, add .env: (add VITE_BE_GQL_API_URL="http://localhost:8000/graphql") npm i, npm run dev.
 3. cd server, add .env: (add PORT=8000 and DB_URL(atlas or local db url)), npm run start
